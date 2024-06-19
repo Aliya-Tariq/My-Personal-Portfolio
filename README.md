@@ -3,9 +3,8 @@
 This repository is my personal porfolio website.
 
 During one of my uni brakes,
-
 I encountered this idea of building a gamified version portfolio or simply saying combining pixels and matrix.  
-At first, I thought of simply making it a portfolio to showcase my projects and skills.
+At first, I thought of simply making it a portfolio to showcase my projects and skills.  
 Later on, one day when I was building my portfolio, I was struck by an idea: 
 
 Why not build the portfolio to be something unique and fun to interact with for Code Lovers?
