@@ -16,7 +16,7 @@ However, I must caution you that this freedom to do (or in this case, write) wha
 You will need to create your own directions.  
 You'll be enticed by how much you will learn and create when working on something solo.
 
-I've dedicated countless hours to this project with the hope that it inspires **new developers and aspiring engineers** to transform their unique ideas into something cool that they can admire, sparking creativity in others as well.
+I've dedicated countless hours to this project in hopes that it inspires **new developers and aspiring engineers** to transform their unique ideas into something cool that they can admire, sparking creativity in others as well.
 
 ---
 
