@@ -53,5 +53,4 @@ craft their unique ideas into something cool they can admire and inspires others
 11. **SEO-Friendly**:
     - The website is built with SEO best practices in mind, helping improve visibility on search engines.
 
-
 ---
