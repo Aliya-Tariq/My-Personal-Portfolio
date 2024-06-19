@@ -12,13 +12,12 @@ Later on, one day when I was building my portfolio, I was struck by an idea:
 While working on this project,  
 I was captivated by how much creativity emerges when you have the freedom to think outside the box.  
 Thinking and creating without limitations certainly gives birth to something purely original.   
-However, I must caution you that this freedom to do (or in this case, write) whatever you want means you will have no set direction.  
+However, I must caution you:
+this freedom to do (or in this case, write) whatever you want means you will have predefined directions.  
 You will need to create your own directions.  
 You'll be enticed by how much you will learn and create when working on something solo.
 
-Since I have been working on this project from a long time to make it a purposeful one,  
-I hope my project inspires the newbie devs and upcoming engineers,  
-craft their unique ideas into something cool they can admire and inspires others too.
+I've dedicated countless hours to this project with the hope that it inspires **new developers and aspiring engineers** to transform their unique ideas into something cool that they can admire, sparking creativity in others as well.
 
 ---
 
