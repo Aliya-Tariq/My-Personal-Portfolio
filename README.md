@@ -1,8 +1,22 @@
 # My-personal-porfolio
 This repository is my personal porfolio website.
-i have been working on this project since long time, in order to make this project a purposeful on
-This is a project I built for fun over one of my uni brakes, built using custom html, css and JS. This project contains a number of nifty features such as:
+This is a project I built for fun over one of my uni brakes, built using custom html, css and JS, containing numerous nifty features.
 
+I have been working on this project since long time, in order to make it a purposeful one.
+My project inspires the newbie devs and upcoming engineers to craft their unique ideas into something cool they can admire and inspires others too
+---
+
+I first encountered this idea of building a gamified version portfolio, simply combining pixels and matrices.
+I first thought of simply making it a portfolio to showcase my projects and skills.
+Later on, one day when I was building my portfolio, I was struck by an idea: 
+
+Why not build the portfolio to be something unique and fun to interact with for code lovers?
+
+While working on this project, I was captivated by how much creativity emerges when you have the freedom to think outside the box. 
+Thinking and creating without limitations certainly gives birth to something purely original. 
+However, I must caution you that this freedom to do (or in this case, write) whatever you want means you will have no set direction.
+You will need to create your own directions.
+You'll be enticed by how much you will learn and create when working on something solo.
 ---
 
 ## Features
@@ -22,29 +36,21 @@ This is a project I built for fun over one of my uni brakes, built using custom 
 5. **Animated Skill Bars**:
    - Display skill proficiency with animated skill bars that fill up smoothly, providing a dynamic visual representation of your abilities.
 
-6. **Project Showcase with Filtering**:
-   - The projects section includes a filtering feature to easily categorize and showcase your work, making it simple for visitors to find specific projects.
-
-7. **Contact Form with Validation**:
-   - An integrated contact form with client-side validation ensures that visitors can easily reach out to you without any issues.
-
-8. **Smooth Scroll and Scroll Animations**:
+6. **Smooth Scroll and Scroll Animations**:
    - Implemented smooth scrolling and scroll-triggered animations to enhance navigation and create a more engaging user experience.
 
-9. **Integrated Social Media Links**:
-   - Easily accessible social media icons are included, allowing visitors to connect with you on various platforms.
+7. **Integrated Social Media Links**:
+   - Easily accessible social media icons are included, allowing visitors to connect easily on various platforms.
 
-10. **Themed Color Scheme**:
+8. **Themed Color Scheme**:
     - A consistent themed color scheme is used throughout the website to maintain a professional and cohesive look.
 
-11. **Performance Optimization**:
+10. **Performance Optimization**:
     - The website is optimized for performance to ensure fast loading times and a smooth user experience.
 
-12. **SEO-Friendly**:
+11. **SEO-Friendly**:
     - The website is built with SEO best practices in mind, helping improve visibility on search engines.
 
-13. **Dark Mode Toggle**:
-    - Includes a dark mode toggle to provide users with a choice between light and dark themes, enhancing usability and accessibility.
 
 ---
 
