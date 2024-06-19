@@ -1,2 +1,2 @@
 # My-personal-porfolio
- This repository is my personal porfolio website.
+This repository is my personal porfolio website.

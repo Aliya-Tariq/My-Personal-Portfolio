@@ -1,17 +1,18 @@
 const matrix = document.getElementById("matrix");
 const ctx = matrix.getContext("2d");
 
-// Set the canvas size to fullscreen
+// Setting the canvas size to fullscreen
 matrix.height = window.innerHeight;
 matrix.width = window.innerWidth;
 
-// Create an array of characters to use for the rain
+// Creating an array of characters to use for the rain
 const characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#$%^&*()_+[]{}|;':\",.<>?/\\-=`~".split("");
 const font_size = 10;
-const columns = matrix.width / font_size; // number of columns for the rain
+const columns = matrix.width / font_size; // this is number of columns for the rain
+
 const drops = []; // an array of drops - one per column
 
-// Fill the drops[] array with drops from the top of the screen
+// Filling the drops[] array with drops from the top of the screen
 for (let x = 0; x < columns; x++) {
 drops[x] = 1;
 }
@@ -40,32 +41,69 @@ drops[i]++;
 
 }
 
-// Call the draw() function again in a few milliseconds
+// Calling the draw() function again in a few milliseconds
 setTimeout(draw, 33);
 }
 
 draw();
 
-document.getElementById("facebook").addEventListener("click", function(event){
-    event.preventDefault();
-    window.open(this.href, "_blank");
+// NAVBAR func that disappears on scroll down and appears on scroll up 
+
+const nav = document.querySelector("nav");
+const navHeight = 70;
+// the point the scroll starts from (in px)
+let lastScrollY = 0;
+// how far to scroll (in px) before triggering
+const delta = 10;
+
+// function to run on scrolling
+function scrolled() {
+  let sy = window.scrollY;
+  // only trigger if scrolled more than delta
+  if (Math.abs(lastScrollY - sy) > delta) {
+    // scroll down -> hide nav bar
+    if (sy > lastScrollY && sy > navHeight) {
+      nav.classList.add("nav-up");
+    } 
+    // scroll up -> show nav bar
+    else if (sy < lastScrollY) {
+      nav.classList.remove("nav-up");
+    }
+   // updating current scroll point
+   lastScrollY = sy 
+  }
+}
+
+// Adding event listener & debounce so not constantly checking for scroll
+let didScroll = false;
+window.addEventListener("scroll", function(e){
+  didScroll = true;
 });
 
-document.getElementById("instagram").addEventListener("click", function(event){
-    event.preventDefault();
-    window.open(this.href, "_blank");
-});
+setInterval(function() {
+  if (didScroll) {
+    scrolled();
+    didScroll = false;
+   }
+}, 250)
 
 
-document.getElementById("envelope").addEventListener("click", function(event){
-    event.preventDefault();
-    window.open(this.href, "_blank");
-});
+// function myFunction(x) {
+//     x.classList.toggle("change");
+//   }
 
-document.getElementById("github").addEventListener("click", function(event){
-    event.preventDefault();
-    window.open(this.href, "_blank");
-});
+// function showSidebar (){
+//     const sidebar = document .querySelector ('.sidebar')
+//     sidebar.style.display = 'flex'
+// }
 
+// function hideSidebar (){
+//     const sidebar = document .querySelector ('.sidebar')
+//     sidebar.style.display = 'none'
+// }
 
+// function toggleSidebar() {
+//   document.querySelector('.sidebar')
+//     .classList.toggle('closed');
+// }
 
