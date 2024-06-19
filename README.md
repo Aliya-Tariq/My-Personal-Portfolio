@@ -3,17 +3,6 @@ This repository is my personal porfolio website.
 i have been working on this project since long time, in order to make this project a purposeful on
 This is a project I built for fun over one of my uni brakes, built using custom html, css and JS. This project contains a number of nifty features such as:
 
-• The website uses an animated 3D MATRIX rain effect to create a visually compelling and engaging background.
-• Numerous InterACTIVE and VISUALLY appealing components throughout the portfolio
-• Built with a responsive design to ensure seamless viewing on all devices, from desktops to smartphones.
-•
-•
-•
-•
-•
-
-Sure, here are some nifty features of your portfolio website that you can include in the README file of your GitHub project:
-
 ---
 
 ## Features
