@@ -1,0 +1,249 @@
+
+
+      html {
+        scroll-behavior: smooth;
+        scroll-padding-top: 100px;
+      }
+
+      body {
+        background-color: black;
+        overflow: auto;
+        /* change */
+        margin: var(--header-height) 0 0 0;
+        font-family: var(--body-font);
+        font-size: var(--normal-font-size);
+        color: var(--second-color);
+      }
+
+
+      h1, h2, p{
+        margin: 0;
+      }
+
+      @font-face {
+        font-family: 'chill_pixelsmatrix';
+        src: url('/fonts/chillpixels-matrix-webfont.woff2') format('woff2'),
+        url('fonts/chillpixels-matrix-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+
+      }
+
+      @font-face {
+        font-family: 'chill_pixelsmaximal';
+        src: url('/fonts/chillpixels-maximal-webfont.woff2') format('woff2'),
+            url('fonts/chillpixels-maximal-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      #matrix {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+      }
+
+      .pixelify-sans-pixel {
+        font-family: "Pixelify Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+      }
+
+
+      h2{
+        font: 700 2.5rem 'chill_pixelsmaximal', sans-serif;
+        font-style: bold;
+        color: #89b037;
+        display: flex;
+        justify-content: center;
+      }
+
+
+      p{
+        
+        color: #e6e6e6a4;
+        font: 300 1.4rem "Pixelify Sans", monospace;
+        margin-top: 2rem;
+      }
+
+      ::-webkit-scrollbar {
+        background-color: #22221f;
+        color: #aca08a; }
+
+        ::-webkit-scrollbar-corner {
+          background-color: #191917;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background-color: #494842;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background-color: #89b037;
+      }
+
+      a {
+        text-decoration: none;
+        font-family:  "Pixelify Sans", sans-serif;
+      }
+
+
+   .navbar
+      {
+          background-color: transparent;
+          width: 100%;
+          height: 80px;
+          position: fixed;
+          top: 0;
+          left: 0;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          z-index: 1;
+          transition: 0.8s ease-in-out;
+      }
+
+      
+      .nav-up{
+        top: -70px;
+      }
+
+    .links-container{
+      display: none;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-left: 50%;
+      }
+
+    .nav_link{
+      text-decoration: none;
+      text-transform: capitalize;
+      color: #fff;
+      opacity: 0.9;
+      display: inline-block;
+      font-size: 15px;
+      padding: 0 15px;
+      display: flex;
+      align-items: center;
+    }
+
+     a:hover {
+      color: #89b037; 
+      opacity: 1; 
+      transition: color 0.3s ease; 
+    }
+
+    #sidebar-active{
+      display: none;
+    }
+    
+    .open-sidebar-button, .close-sidebar-button {
+      padding: 0 20px;
+      display: none;
+    }
+
+
+  /* HOME CSS */
+
+    .portfolio {
+      color: #89b037;
+      font: 700 1.5rem "Pixelify Sans", sans-serif;
+      margin-left: 3rem;
+    }
+
+
+    /* ####### */
+
+    #home{
+      padding-top: 10%;
+    }
+
+    #about {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 15rem;
+      flex-direction: column;
+      
+    }
+
+    #skills
+    {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 15rem;
+      flex-direction: column;
+      
+    }
+
+    #projects{
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 15rem;
+      flex-direction: column;
+    }
+
+    #contactme
+    {
+    display: flex;
+      flex-wrap: wrap;
+      margin-top: 15rem;
+      flex-direction: column;
+      margin-right: 10%;
+    }
+
+    /* portfolio background */
+
+    .l-main{
+      
+        background-color: rgba(44, 30, 30, 0.698);
+        width: 80%;
+        height: auto;
+        display: block;
+        border-radius: 50px;
+        opacity: 90%;
+        max-width: 1200px; 
+        margin: 0 auto; 
+
+      }   
+        
+    .main-section
+    {
+      margin: 10%;
+    }
+
+      /* HOME */
+
+      .hello_its_me {
+        margin-top:20%;
+        color: #ffffff;
+        text-align: left;
+        font: 400 2rem "Pixelify Sans", sans-serif;
+        position: relative;
+      }
+      
+      .aliya-tariq {
+        padding-top: 2%;
+        color: #ffffff;
+        text-align: left;
+        font: 450 7rem "Pixelify Sans", sans-serif; 
+        position: relative;
+      } 
+
+      .and_im_a
+      {
+        padding-top: 2.5%;
+      }
+
+      .frontend-developer {
+        color: #89b037;
+        text-align: left;
+        font: 100 3rem "Pixelify Sans", sans-serif;
+        font-weight: 10;
+        position: relative;
+      }

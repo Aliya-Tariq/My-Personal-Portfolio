@@ -1,0 +1,91 @@
+/* PROJECTS */
+
+  .projects-heading{
+    color: #fff;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .project_box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .project-des
+  {
+    color: #e6e6e685;
+    font-size: 1.3rem;
+    padding: 10%;
+    text-align: center;
+  }
+
+  .view-project {
+    text-decoration: none;
+  }
+
+  
+  .box {
+    flex-grow: 0;
+    flex-basis: auto;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #0f0;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    margin-top: 10%;
+    padding: 5%;
+  }
+
+
+.box:before {
+    content: '';
+    background: linear-gradient(45deg,  #0f0, #89b037);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+  }
+
+  .box:active {
+      color: #33333379;
+  }
+
+  .box:active:after {
+      background: transparent;
+  }
+
+  .box:hover:before {
+      opacity: 1;
+  }
+
+  .box:after {
+      z-index: -1;
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: #22221f;
+      left: 0;
+      top: 0;
+      border-radius: 10px;
+  }
+
+  @keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+  }
+   
